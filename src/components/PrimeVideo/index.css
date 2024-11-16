@@ -1,0 +1,44 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+
+.primevideo-app-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.prime-video-bottom-container {
+  background-color: #000000;
+  padding-left: 46px;
+  padding-top: 28px;
+  padding-bottom: 86px;
+  /* height: 130vh; */
+  display: flex;
+  flex-direction: column;
+}
+
+.prime-video-img {
+  height: 48vh;
+}
+
+.action-movies-container,
+.comedy-movies-container {
+  display: flex;
+  flex-direction: column;
+}
+.action-movies-container {
+  margin-bottom: 12px;
+}
+
+.action-movies-heading,
+.comedy-movies-heading {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+/* .action-movies-list-container{
+  display: flex;
+  flex-direction: row;
+
+} */
